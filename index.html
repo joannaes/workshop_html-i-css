@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Warsztat HTML i CSS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo"> SIT <span class="strong color_text">ON</span> CHAIR
+                </div>
+            <nav>
+                <ul class="menu">
+                    <li class="hover"><a href="#">O FIRMIE</a>
+                        <ul class="submenu">
+                                <li><a href="#">Aktualności</a></li>
+                                <li><a href="#">Nasz team</a></li>
+                                <li><a href="#">Historia</a></li>
+                        </ul>
+                    </li>
+                    <li class="margin"><a href="#">GALERIA</a></li>
+                    <li class="margin"><a href="#">KONTAKT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="slider">
+        <div class="container slider_container">
+            <div class="main_image"><img src="images/black_chair.png"></div>
+            <article>
+                <h1> SIT <span class="color_text">ON</span> OUR <span class="color_text main_section">CHAIR</span></h1>
+                <p>Lorem ipsum dolor sit amet nibh. Suspendisse facilisis congue. Donec gravida sagittis. Curabitur blandit eros, aliquam imperdiet. Nullam wisi diam felis, interdum sem orci, gravida diam. Ut tincidunt leo semper feugiat.</p>
+                <a href="#">ZOBACZ WIĘCEJ</a>
+            </article>
+        </div>
+    </section>
+    <section class="offer">
+        <div class="container">
+            <div id="product_1">
+                <div class="transparent_bckg"><h3>Chair CLAIR</h3></div>
+            </div>
+            <div id="product_2">
+                <div class="transparent_bckg"><h3>Chair MARGARITA</h3></div>
+            </div>
+            <div id="product_3">
+                <h3>Finds all inputs</h3>
+                <p>Finds all inputs that are not checked and highlights the next sibling span. Notice there is no change when clicking the checkboxes since no click events have been linked. <br>
+                Notice there is no change when clicking the checkboxes since no click events have been</p>
+            </div>
+        </div>
+    </section>
+    <section class="price_plan">
+        <div class="container">
+            <h2 class="underlined">CENNIK</h2>
+            <div class="plan_box">
+                <h2 class="plan_header">BASIC PLAN</h2>
+                <div class="big_circle">
+                    <p class="basic_advance">85 <span class="sup">99</span><br>
+                    <span class="currency">PLN/MSC</span></p>
+                </div>
+                <table>
+                    <tr>
+                        <td>Zakup towaru + dowóz</td>
+                    </tr>
+                    <tr>
+                        <td>Serwis</td>
+                    </tr>
+                </table>
+                <a class="button" href="#">DOŁĄCZ</a>
+                <div class="small_circle"></div>
+                
+            </div>
+            <div class="plan_box middle_plan_box">
+                <h2 class="plan_header color_header">STANDARD PLAN</h2>
+               <div class="big_circle color_border">
+                   <p class="standard">95 <span class="sup">99</span><br>
+                    <span class="currency">PLN/MSC</span></p>
+                   </div> 
+                <table id="standard">
+                    <tr>
+                        <td>Zakup towaru + dowóz</td>
+                    </tr>
+                    <tr>
+                        <td>Serwis</td>
+                    </tr>
+                    <tr>
+                        <td>Gwarancja 5 lat</td>
+                    </tr>
+                </table>
+                <a class="standard_button button" href="#">DOŁĄCZ</a>
+                <div class="small_circle color_circle"></div>
+            </div>
+            <div class="plan_box">
+                <h2 class="plan_header">ADVANCE PLAN</h2>
+                <div class="big_circle">
+                    <p class="basic_advance"><span class="long_price">211</span><span class="sup">00</span><br>
+                    <span class="currency">PLN/MSC</span></p>
+                </div>
+                <table>
+                    <tr>
+                        <td>Zakup towaru + dowóz</td>
+                    </tr>
+                    <tr>
+                        <td>Serwis</td>
+                    </tr>
+                    <tr>
+                        <td>Gwarancja 6 lat</td>
+                    </tr>
+                    <tr>
+                        <td>Porady projektanta</td>
+                    </tr>
+                </table>
+                <a class="button" href="#">DOŁĄCZ</a>
+                <div class="small_circle"></div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <h2 class="underlined">KONTAKT</h2>
+            <form>
+                <input type="text" name="name" placeholder="Imię">
+                <input type="email" name="email" placeholder="email">
+                <textarea rows="4" cols="27" name="message" placeholder="Wiadomość"></textarea>
+                <input type="checkbox" checked name="agreement">Zgadzam się na przetwarzanie <br>danych osobowych
+                <input type="submit" name="submit" value="Wyślij">
+            </form>
+            <img src="images/red_chair.png">
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p class="copy">Copyright 2014|All Rights Reserved. - Sit On Chair</p>
+            <div class="social_icons"><img src="images/flickr.png"><img src="images/vimeo.png"><img src="images/pinterest.png"><img src="images/twitter.png"></div>
+            <p class="grey_logo">SIT <strong>ON</strong> CHAIR</p>
+        </div>
+    </footer>
+</body>
+</html>
