@@ -44,9 +44,9 @@
                 <div class="transparent_bckg"><h3>Chair MARGARITA</h3></div>
             </div>
             <div id="product_3">
-                <h3>Finds all inputs</h3>
-                <p>Finds all inputs that are not checked and highlights the next sibling span. Notice there is no change when clicking the checkboxes since no click events have been linked. <br>
-                Notice there is no change when clicking the checkboxes since no click events have been</p>
+                <h3 class="headerAboveArticle">Finds all inputs</h3>
+                <p>Finds all inputs that are not checked and highlights the next sibling span. Notice there is no change when clicking the checkboxes since no click events have been linked. </p>
+                <p>Notice there is no change when clicking the checkboxes since no click events have been</p>
             </div>
         </div>
     </section>
@@ -121,13 +121,18 @@
         <div class="container">
             <h2 class="underlined">KONTAKT</h2>
             <form>
-                <input type="text" name="name" placeholder="Imię">
-                <input type="email" name="email" placeholder="email">
-                <textarea rows="4" cols="27" name="message" placeholder="Wiadomość"></textarea>
-                <input type="checkbox" checked name="agreement">Zgadzam się na przetwarzanie <br>danych osobowych
-                <input type="submit" name="submit" value="Wyślij">
+                <div id="formFirstCol">
+                    <input type="text" name="name" placeholder="Imię">
+                    <input type="email" name="email" placeholder="email">
+                    <textarea rows="4" cols="27" name="message" placeholder="Wiadomość"></textarea>
+                </div>
+                <div id="formSecondCol">
+                    <img src="images/red_chair.png">
+                    <input id="checkField" type="checkbox" checked name="agreement"><span id="agreement">Zgadzam się na przetwarzanie danych osobowych </span>
+                    <input id="submitButton" type="submit" name="submit" value="WYŚLIJ">
+                </div>
             </form>
-            <img src="images/red_chair.png">
+            
         </div>
     </section>
     <footer>
