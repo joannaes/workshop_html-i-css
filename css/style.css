@@ -170,6 +170,29 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     margin-left: -47px; 
 }
 
+.arrowLeft {
+	position: relative;
+	float: left;
+	text-align: center;
+	color: #27C7AB;
+	font-size: 90px;
+	top: 180px;
+	left: 5px;
+	padding-top: 0;
+}
+
+.arrowRight {
+	position: relative;
+	float: right;
+	text-align: center;
+	color: #27C7AB;
+	font-size: 90px;
+	top: 180px;
+	right: 5px;
+	padding-top: 0;
+}
+
+
 .slider_container{
 position: relative;    
 }
