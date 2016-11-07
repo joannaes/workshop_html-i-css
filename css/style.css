@@ -299,6 +299,7 @@ h3:after {
 
 .middle_plan_box {
     margin: 55px 30px;
+    margin-bottom: 65px;
     background-color: #27C7AB;
     border: 2px solid #27C7AB;    
 }
@@ -440,7 +441,7 @@ tr:nth-child(2n) {
 }
 
 .contact {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 #formFirstCol {
@@ -456,7 +457,7 @@ tr:nth-child(2n) {
 
 #formSecondCol img {
     display: block;
-    margin-left: auto;
+    margin-left: 30px;
     margin-right: auto;
 }
 
@@ -464,17 +465,19 @@ input, textarea {
     font-family: 'ralewayregular', sans-serif;
     border: 1px solid #27C7AB;
     display: block;
-    height: 180px;
-    width: 100%;
-    margin-top: 30px;
+    height: 160px;
+    width: 97%;
+    margin-top: 26px;
+    padding: 10px;
 }
 
 input {
     border: 1px solid #27C7AB;
-    height: 55px;
-    width: 100%;
+    height: 45px;
+    width: 97%;
     display: block;
-    margin-top: 30px;
+    margin-top: 28px;
+    padding: 10px;
 }
 
 #submitButton {
@@ -490,7 +493,7 @@ input {
 #checkField {
     width: 12%;
     float: left;
-    margin-top: 35px;
+    margin-top: 36px;
     margin-left: 5px;
 }
 
@@ -498,8 +501,8 @@ input {
     width: 75%;
     font-size: 19px;
     float: left;
-    margin-top: 40px;
-    margin-bottom: 25px;
+    margin-top: 36px;
+    margin-bottom: 35px;
     padding-left: 11px;
     color: #A9A9A9;
 }
@@ -522,25 +525,39 @@ input {
 
 .copy {
     float: left;
-    margin-top: 120px;
+    margin-top: 100px;
     margin-bottom: 30px;
+    margin-left: -5px;
     color: #A9A9A9;
+    font-family:  'ralewaymedium';
+    font-size: 17px;
+    word-spacing: 1px;
 }
 
 .rightFooterCol{
     float: right;
     width: 35%;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: 30px;
     margin-left: 50px;
 }
+
 .social_icons {
     float: left;
+    margin-top: 5px;
+}
+
+.social_icons img {
+    margin-left: 3px;   
 }
 
 .grey_logo {
     float: right; 
     color: #A9A9A9;
+    font-family:  'ralewaymedium';
+    font-size: 19px;
+    word-spacing: 6px;
+    padding-right: 10px;
 }
 
 
