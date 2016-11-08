@@ -192,7 +192,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	padding-top: 0;
 }
 
-
 .slider_container{
 position: relative;    
 }
@@ -513,11 +512,39 @@ input {
     font-size: 32px;
 }
 
-#checkField {
+input[type=checkbox] {
+	visibility: hidden;
+}
+
+.check {
     width: 12%;
     float: left;
     margin-top: 36px;
     margin-left: 5px;
+    position: relative;
+}
+
+.check label {
+	cursor: pointer;
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	top: 0;
+  	left: 0;
+    border: 1px solid #27C7AB;
+}
+
+.check label:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background-image: url(../images/form_ok.jpg);
+    opacity: 0;
+}
+
+.check input[type=checkbox]:checked + label:after {
+	opacity: 1;
 }
 
 #agreement {
