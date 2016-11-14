@@ -92,7 +92,7 @@ nav {
 }
 
 nav ul {
-margin: 12px 0;    
+margin-top: 12px;    
 }
 
 nav li {
@@ -116,7 +116,7 @@ nav li {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
-    padding-bottom: 5px;
+    padding: 10px 0;
 }
 
 .submenu {
@@ -125,6 +125,7 @@ nav li {
     top: 20px;
     background-color: black;
     display: none;
+    z-index: 2;
 }
 
 .submenu a {
@@ -142,10 +143,6 @@ nav li {
 
 .hover:hover .submenu {
     display: block;
-}
-
-.hover a {
-    padding: 25px 0;
 }
 
 .slider {
@@ -440,6 +437,7 @@ td {
 tr:nth-child(2n) {
 	background: #F1F1F1;
 }
+
 #standard {
     background-color: white;
 }
@@ -536,10 +534,13 @@ input[type=checkbox] {
 
 .check label:after {
     position: absolute;
+    height: 40px;
+    width: 40px;
     content: '';
-    top: 0;
+    top: 2px;
     left: 0;
     background-image: url(../images/form_ok.jpg);
+    background-repeat: no-repeat;
     opacity: 0;
 }
 
